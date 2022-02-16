@@ -1,5 +1,9 @@
-2022/02/15-23:46:42.181 984 Reusing MANIFEST C:\Users\Wiktor\AppData\Local\Chromium\User Data\Default\Local Storage\leveldb/MANIFEST-000012
-2022/02/15-23:46:42.183 984 Recovering log #26
-2022/02/15-23:46:42.188 984 Level-0 table #28: started
-2022/02/15-23:46:42.197 984 Level-0 table #28: 269048 bytes OK
-2022/02/15-23:46:42.200 984 Delete type=0 #26
+2022/02/16-01:07:51.423 7c2c Reusing MANIFEST H:\Zalando-Lounge-Bot\user_data\Default\Local Storage\leveldb/MANIFEST-000012
+2022/02/16-01:07:51.425 7c2c Recovering log #175
+2022/02/16-01:07:51.432 7c2c Level-0 table #177: started
+2022/02/16-01:07:51.445 7c2c Level-0 table #177: 268731 bytes OK
+2022/02/16-01:07:51.449 7c2c Delete type=0 #175
+2022/02/16-01:08:10.629 821c Level-0 table #180: started
+2022/02/16-01:08:10.644 821c Level-0 table #180: 529111 bytes OK
+2022/02/16-01:08:10.646 821c Delete type=0 #178
+2022/02/16-01:08:10.648 821c Compacting 4@0 + 1@1 files
