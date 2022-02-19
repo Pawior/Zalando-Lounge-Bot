@@ -7,11 +7,10 @@ const puppeteer = require("puppeteer");
 // Ten localstorage jest tu najważniejszym plikiem który potrzebuje puppeteer przy starcie
 const campaign = "ZZO1MYN";
 let productsArr;
-(async () => {
+const addToCart = async () => {
   const browser = await puppeteer.launch({
     ignoreHTTPSErrors: true,
     headless: false,
-    userDataDir: "./user_Data",
   });
   // const client = await page.target().createCDPSession();
   // await client.send('Network.clearBrowserCookies');
@@ -184,4 +183,25 @@ let productsArr;
     // 2 opcja: click jIVZOs
   }
   await browser.close();
-})();
+};
+const loginIn = async () => {
+  const browser = await puppeteer.launch({
+    ignoreHTTPSErrors: true,
+    headless: false,
+  });
+  // const client = await page.target().createCDPSession();
+  // await client.send('Network.clearBrowserCookies');
+  // await client.send('Network.clearBrowserCache');
+  const page = await browser.newPage();
+  // const context = await browser.createIncognitoBrowserContext();
+  // const page = await context.newPage();
+  await page.setViewport({
+    width: 1920,
+    height: 1080,
+    deviceScaleFactor: 1,
+  });
+  await page.goto(`https://www.zalando-lounge.pl/#/login`)
+}
+
+loginIn()
+addToCart()
