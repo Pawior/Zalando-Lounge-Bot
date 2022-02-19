@@ -1,17 +1,8 @@
-2022/02/19-01:22:31.519 19c4 Reusing MANIFEST H:\Zalando-Lounge-Bot\user_data\Default\Local Storage\leveldb/MANIFEST-000012
-2022/02/19-01:22:31.520 19c4 Recovering log #308
-2022/02/19-01:22:31.523 19c4 Level-0 table #311: started
-2022/02/19-01:22:31.532 19c4 Level-0 table #311: 143780 bytes OK
-2022/02/19-01:22:31.542 19c4 Delete type=0 #308
-2022/02/19-01:22:43.904 89c4 Level-0 table #314: started
-2022/02/19-01:22:43.915 89c4 Level-0 table #314: 286882 bytes OK
-2022/02/19-01:22:43.918 89c4 Delete type=0 #312
-2022/02/19-01:22:43.921 19c4 Compacting 4@0 + 1@1 files
-2022/02/19-01:22:43.957 19c4 Generated table #315@0: 104 keys, 581555 bytes
-2022/02/19-01:22:43.958 19c4 Compacted 4@0 + 1@1 files => 581555 bytes
-2022/02/19-01:22:43.962 19c4 compacted to: files[ 0 1 0 0 0 0 0 ]
-2022/02/19-01:22:43.972 19c4 Delete type=2 #304
-2022/02/19-01:22:43.972 19c4 Delete type=2 #306
-2022/02/19-01:22:43.972 19c4 Delete type=2 #309
-2022/02/19-01:22:43.972 19c4 Delete type=2 #311
-2022/02/19-01:22:43.972 19c4 Delete type=2 #314
+2022/02/19-18:54:12.490 52e8 Reusing MANIFEST H:\Zalando-Lounge-Bot\user_Data\Default\Local Storage\leveldb/MANIFEST-000001
+2022/02/19-18:54:12.491 52e8 Recovering log #20
+2022/02/19-18:54:12.501 52e8 Level-0 table #22: started
+2022/02/19-18:54:12.513 52e8 Level-0 table #22: 559889 bytes OK
+2022/02/19-18:54:12.517 52e8 Delete type=0 #20
+2022/02/19-18:54:33.500 2fd4 Level-0 table #25: started
+2022/02/19-18:54:33.514 2fd4 Level-0 table #25: 553295 bytes OK
+2022/02/19-18:54:33.517 2fd4 Delete type=0 #23

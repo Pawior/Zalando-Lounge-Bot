@@ -1,8 +1,5 @@
-2022/02/19-01:21:39.572 4bb0 Reusing MANIFEST H:\Zalando-Lounge-Bot\user_data\Default\Local Storage\leveldb/MANIFEST-000012
-2022/02/19-01:21:39.573 4bb0 Recovering log #303
-2022/02/19-01:21:39.583 4bb0 Level-0 table #306: started
-2022/02/19-01:21:39.601 4bb0 Level-0 table #306: 559555 bytes OK
-2022/02/19-01:21:39.608 4bb0 Delete type=0 #303
-2022/02/19-01:21:51.511 8fa0 Level-0 table #309: started
-2022/02/19-01:21:51.526 8fa0 Level-0 table #309: 552996 bytes OK
-2022/02/19-01:21:51.530 8fa0 Delete type=0 #307
+2022/02/19-18:52:00.113 76c0 Reusing MANIFEST H:\Zalando-Lounge-Bot\user_Data\Default\Local Storage\leveldb/MANIFEST-000001
+2022/02/19-18:52:00.115 76c0 Recovering log #16
+2022/02/19-18:52:00.125 76c0 Level-0 table #19: started
+2022/02/19-18:52:00.139 76c0 Level-0 table #19: 553315 bytes OK
+2022/02/19-18:52:00.145 76c0 Delete type=0 #16
