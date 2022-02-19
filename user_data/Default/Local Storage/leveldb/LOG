@@ -1,18 +1,17 @@
-2022/02/16-01:09:02.719 8370 Reusing MANIFEST H:\Zalando-Lounge-Bot\user_data\Default\Local Storage\leveldb/MANIFEST-000012
-2022/02/16-01:09:02.721 8370 Recovering log #179
-2022/02/16-01:09:02.723 8370 Level-0 table #182: started
-2022/02/16-01:09:02.730 8370 Level-0 table #182: 136776 bytes OK
-2022/02/16-01:09:02.734 8370 Delete type=0 #179
-2022/02/16-01:09:02.734 8370 Delete type=2 #181
-2022/02/16-01:09:02.735 7f60 Compacting 5@0 + 1@1 files
-2022/02/16-01:09:02.926 7f60 Generated table #184@0: 119 keys, 539083 bytes
-2022/02/16-01:09:02.926 7f60 Compacted 5@0 + 1@1 files => 539083 bytes
-2022/02/16-01:09:02.927 7f60 compacted to: files[ 0 1 0 0 0 0 0 ]
-2022/02/16-01:09:02.929 7f60 Delete type=2 #170
-2022/02/16-01:09:02.929 7f60 Delete type=2 #172
-2022/02/16-01:09:02.929 7f60 Delete type=2 #174
-2022/02/16-01:09:02.929 7f60 Delete type=2 #177
-2022/02/16-01:09:02.929 7f60 Delete type=2 #180
-2022/02/16-01:09:02.929 7f60 Delete type=2 #182
-2022/02/16-01:09:30.151 8370 Level-0 table #186: started
-2022/02/16-01:09:30.176 8370 Level-0 table #186: 268734 bytes OK
+2022/02/19-01:22:31.519 19c4 Reusing MANIFEST H:\Zalando-Lounge-Bot\user_data\Default\Local Storage\leveldb/MANIFEST-000012
+2022/02/19-01:22:31.520 19c4 Recovering log #308
+2022/02/19-01:22:31.523 19c4 Level-0 table #311: started
+2022/02/19-01:22:31.532 19c4 Level-0 table #311: 143780 bytes OK
+2022/02/19-01:22:31.542 19c4 Delete type=0 #308
+2022/02/19-01:22:43.904 89c4 Level-0 table #314: started
+2022/02/19-01:22:43.915 89c4 Level-0 table #314: 286882 bytes OK
+2022/02/19-01:22:43.918 89c4 Delete type=0 #312
+2022/02/19-01:22:43.921 19c4 Compacting 4@0 + 1@1 files
+2022/02/19-01:22:43.957 19c4 Generated table #315@0: 104 keys, 581555 bytes
+2022/02/19-01:22:43.958 19c4 Compacted 4@0 + 1@1 files => 581555 bytes
+2022/02/19-01:22:43.962 19c4 compacted to: files[ 0 1 0 0 0 0 0 ]
+2022/02/19-01:22:43.972 19c4 Delete type=2 #304
+2022/02/19-01:22:43.972 19c4 Delete type=2 #306
+2022/02/19-01:22:43.972 19c4 Delete type=2 #309
+2022/02/19-01:22:43.972 19c4 Delete type=2 #311
+2022/02/19-01:22:43.972 19c4 Delete type=2 #314

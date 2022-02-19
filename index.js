@@ -5,7 +5,7 @@ const puppeteer = require("puppeteer");
 // A wcześniej stworzyłem folder user_data i skopiowałem do niego pliki z chromium normalnego na którym zalogowałem się do lounge
 // A jak się zalogowałem do lounge'a to lounge stworzył localstorage na podstawie którego odbywa się logowanie
 // Ten localstorage jest tu najważniejszym plikiem który potrzebuje puppeteer przy starcie
-const campaign = "ZZO1MU8";
+const campaign = "ZZO1P28";
 let productsArr;
 (async () => {
   const browser = await puppeteer.launch({
@@ -21,6 +21,7 @@ let productsArr;
   await page.goto(`https://www.zalando-lounge.pl/campaigns/${campaign}`, {
     waitUntil: "networkidle0",
   });
+  // await page.waitForTimeout(2000)
 
   //   await page.evaluate(() => {
   //     location.reload(true);
@@ -59,13 +60,63 @@ let productsArr;
 
   let productsArr = await page.$$(".vMpOO");
 
-  console.log(productsArr);
-  for (let i = 0; i < 20; i++) {
+  // console.log(productsArr);
+  for (let i = 0; i < 5; i++) {
     await productsArr[i].click();
     // await page.waitForTimeout(1500);
     await page.waitForSelector(".jIVZOs");
-    let aElementsWithHi = await page.$x("//span[contains(., 'M')]");
-    await aElementsWithHi[0].click();
+    await page.waitForTimeout(200)
+    // let aElementsWithHi;
+    // let mSizeElements = await page.$x("//span[contains(., 'M')]");
+    // let sSizeElements = await page.$x("//span[contains(., 'S')]");
+    // let lSizeElements = await page.$x("//span[contains(., 'L')]");
+    // // console.log(sSizeElements)
+    // console.log(mSizeElements[0])
+    // // console.log(lSizeElements)
+    // if (await page.$("//span[contains(., 'M')]") != null) {
+    //   await mSizeElements[0].click();
+    // } else if (await sSizeElements.length > 0) {
+    //   await sSizeElements[0].click();
+    // } else if (await lSizeElements.length > 0) {
+    //   await lSizeElements[0].click();
+    // }
+
+    // const [span] = await page.$x("//button[@class='kTLayg']/span[contains(., 'M')]");
+    var mSizeElements = await page.$x("//span[text()='M']");
+    var sSizeElements = await page.$x("//span[text()='S']");
+    var lSizeElements = await page.$x("//span[text()='L']");
+    var xlSizeElements = await page.$x("//span[text()='XL']");
+    // console.log(lSizeElements[0])
+    // var testIt = await page.waitForXPath("//span[text()='M']")
+    // console.log(testIt)
+    await page.waitForTimeout(200)
+    // await mSizeElements[0].click();
+
+    // await lSizeElements[0].click();
+    // await mSizeElements[0].click();
+    // await xlSizeElements[0].click();
+    // await lSizeElements[0].click();
+    // await sSizeElements[0].click();
+
+    if (mSizeElements.length > 0) {
+
+      await mSizeElements[0].click();
+    }
+    if (lSizeElements.length > 0) {
+
+      await lSizeElements[0].click();
+    }
+    if (xlSizeElements.length > 0) {
+
+      await xlSizeElements[0].click();
+    }
+    if (sSizeElements.length > 0) {
+
+      await sSizeElements[0].click();
+    }
+
+
+    // await aElementsWithHi[0].click();
     // await page.click(".jIVZOs");
     let aElementsWithKoszyk = await page.$x(
       "//span[contains(., 'Do koszyka')]"

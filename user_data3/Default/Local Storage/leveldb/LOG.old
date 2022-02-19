@@ -1,0 +1,6 @@
+2022/02/19-00:04:00.555 8b90 Reusing MANIFEST H:\Zalando-Lounge-Bot\user_data\Default\Local Storage\leveldb/MANIFEST-000001
+2022/02/19-00:04:00.557 8b90 Recovering log #3
+2022/02/19-00:04:00.558 8b90 Reusing old log H:\Zalando-Lounge-Bot\user_data\Default\Local Storage\leveldb/000003.log 
+2022/02/19-00:04:10.628 8b90 Level-0 table #5: started
+2022/02/19-00:04:10.640 8b90 Level-0 table #5: 524516 bytes OK
+2022/02/19-00:04:10.642 8b90 Delete type=0 #3
